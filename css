@@ -1,0 +1,46 @@
+.postagem {
+    background-color: #150930;;
+    border-radius: 16px;
+    border: solid 1px #28154f;
+    padding: 16px;
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img .postagem img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.nomeAutor{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dataPostagem{
+    color:  39E968;
+    font-size: 11PX;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tagCont{
+    background-color: rgba(200, 24, 208, 14%);
+    color: #c818d0;
+    width: 150px;
+    border-radius: 6px;
+    padding: 4px, 8px;
+}
+
+.descricao{
+    color: white;
+    font-size: 14px;
+}
+
+.imgpost{
+    width: 820px;
+}
