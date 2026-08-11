@@ -3,7 +3,7 @@
     --surface-color: #201045;
     --accent-color: #a838f0;
     --text-color: #ffffff;
-    --text-deactvated:;
+    --text-deactivate: #201045 ;
 }
 
 *{
@@ -19,64 +19,27 @@ body{
     color: var(--text-color);
 }
 
-h1{
+.app{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header_container{
     color: var(--accent-color);
+    display: block;
+    width: 100%;
+    height: 72px;
+    background-color: pink;
+
 }
 
-p{
-    color: var(--text-color);
-    font-weight: bold;
+.left_container{
+    display: block;
+    width: 260px;
+    height: 100%;
+    background-color: blueviolet;
 }
-
-
-
-.postagem {
-    background-color: var(--bg-color);
-    border-radius: 16px;
-    border: solid 1px #28154f;
-    padding: 16px;
-    width: 820px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img .postagem img{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-}
-
-.nomeAutor{
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.dataPostagem{
-    color:  39E968;
-    font-size: 11PX;
-    font-weight: normal;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.tagCont{
-    background-color: rgba(200, 24, 208, 14%);
-    color: #c818d0;
-    width: 150px;
-    border-radius: 6px;
-    padding: 4px, 8px;
-}
-
-.descricao{
-    color: white;
-    font-size: 14px;
-}
-
-.imgpost{
-    width: 820px;
-}
-
 .container_navbar{
     display: flex;
     flex-direction: column; 
@@ -84,8 +47,8 @@ img .postagem img{
     width: 260px;
     gap: 8px;
     border: 5px;
+    
 }
-
 .item_navbar{
   
     width: 100%;
@@ -115,5 +78,20 @@ img .postagem img{
     font-size: 15px;
     font-weight: bold;
     color: var(--text-deactive-color);
+
+}
+
+.feed_container{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #150930;
+}
+
+.right_container{
+    display: block;
+    width: 320px;
+    height: 100%;
+    background-color: antiquewhite;
 
 }

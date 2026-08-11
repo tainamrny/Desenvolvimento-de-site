@@ -9,14 +9,12 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <title> Nexus - comunidades e eventos</title>
-        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./main.css">
     </head>
         <body>
-        <header>
+        <header class="header_container">
             <h1>Nexus</h1>
-        <div>
 
-        </div>
         <ul>
             <li>
                 <a href="#">Jogos</a>
@@ -33,43 +31,51 @@
         </ul>
 
         </header>
-        <nav class="container_navbar">
+        <div class="app">
+            <aside class="left_container">
+                <nav class="container_navbar">
 
-            <ul>
-                <li class="item_navbar">
-                    <a href="#">Início</a>
-                </li>
-                <li class="item_navbar">
-                    <a href="#">Em Alta</a>
-                </li>
-                <li class="item_navbar">
-                    <a href="#">Torneios</a>
-                </li>
-                <li class="item_navbar">
-                    <a href="#">........</a>
-                </li>
+                    <ul>
+                        <li class="item_navbar">
+                            <a href="#">Início</a>
+                        </li>
+                        <li class="item_navbar">
+                            <a href="#">Em Alta</a>
+                        </li>
+                        <li class="item_navbar">
+                            <a href="#">Torneios</a>
+                        </li>
+                        <li class="item_navbar">
+                            <a href="#">Comunidades</a>
+                        </li>
+                        <li class="item_navbar">
+                            <a href="#">Meus Jogos</a>
+                        </li>
+                        <li class="item_navbar">
+                            <a href="#">Configurações</a>
+                        </li>
 
-            </ul>
-        </nav>
-        <main>
-            <article class="postagem">
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5vT9TkwkZBMuKB_s6Sbx8-kThmPzMIPU0ZoSFv3ffOw&s=10" alt="imagem de perfil">
-                    <p class="nomeAutor">Friskas</p>
-                    <p class="dataPostagem">há 4 horas</p>
-                    <div class="tagCont">
-                        <p>League of Legends</p>
+                    </ul>
+                </nav>
+            </aside>
+            <main class="feed_container">
+                <article class="postagem">
+                    <div>
+                          <p class="nomeAutor">Friskas</p>
+                        <p class="dataPostagem">há 4 horas</p>
+                        <div class="tagCont">
+                            <p>League of Legends</p>
+                        </div>
                     </div>
-                </div>
-                <p class="descricao"> NOTÍCIA: Novo campeonato regional de League of Legends anunciado! Inscrições abertas até 30/05. Prize pool de R$ 50.000. Não percam!
-                </p>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kWob4iBmmjQDjzi3wVaRaUpCGfcPSTYYNdIv6JTryQ&s=10" alt="imagem do post">
-                
+                    <p class="descricao"> NOTÍCIA: Novo campeonato regional de League of Legends anunciado! Inscrições abertas até 30/05. Prize pool de R$ 50.000. Não percam!
+                    </p>
+                    
+                </article>
+            </main>
 
-            </article>
-        </main>
-        <aside>
+            <aside class="right_container">
 
-        </aside>
+            </aside>
+        </div>        
     </body>
 </html>
