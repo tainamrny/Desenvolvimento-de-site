@@ -1,0 +1,25 @@
+body{
+    background-color: #475644;
+}
+
+.container_everything{
+    padding: 10px 30px 45px 15px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.every_topo{
+    background-color: #8982FF;
+    width: 100%;
+    height: 89px;
+}
+
+.every_centro{
+    background-color: #8982FF;
+    width: 795px;
+    height: 739px;
+}

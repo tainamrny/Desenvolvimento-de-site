@@ -1,0 +1,43 @@
+.container_tudo{
+    padding: 12px 100px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tudo_filho1{
+    background-color: #43A3D9;
+    width: 100%;
+    height: 89px;
+}
+
+.container_tudo_linha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+
+}
+
+
+.tudo_filho2{
+
+    background-color: #D25C5C;
+    width: 195px;
+    height: 739px;
+
+}
+
+.tudo_filho3{
+    background-color: #3C0F0F;
+    height: 739px;
+    width: 100%
+
+}
+
+.tudo_filho4{
+    background-color: #43A3D9;
+    width: 100%;
+    height: 89px;
+}
+
