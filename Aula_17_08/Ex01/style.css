@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container_item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 43px;
+    gap: 20px;
+}
+
+.item{
+    background-color: #FE367E;
+    width: 187px;
+    height: 184px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px #00000040;
+}

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container_item{
+    margin: 248px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.item1{ 
+    display: flex;
+    align-items: center;
+    width: 608px;
+    height: 145px;
+    background-color: #FE367E;
+    border: 5px solid black;
+    border-radius: 10px;
+    
+}
+
+.item2{
+    margin: 20px 20px;
+    width: 70px;
+    height: 70px;
+    background-color: #FFE600;
+    border: 5px solid black;
+    border-radius: 10px;
+
+
+}
