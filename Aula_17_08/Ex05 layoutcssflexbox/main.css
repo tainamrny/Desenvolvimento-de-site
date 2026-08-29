@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFBDBD;
+    margin: 43px 100px auto 53px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.container_esquerda{
+    background-color: #FFFFFF;
+    width: 311px;
+    height: 1158px;
+    border: 5px solid black;
+    border-radius: 58px;
+    box-shadow: 4px 9px 5px #00000040;
+    
+}
+
+.container_esq_amarelo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 75px;
+    gap: 52px;
+}
+
+.bloco_amarelo{
+    background-color: #FFE600;
+    width: 70px;
+    height: 70px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px #00000040;
+}
+
+.container_esq_azul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 43px;
+    gap: 52px;
+    
+}
+
+.bloco_azul{
+    background-color: #00C2FF;
+    width: 237px;
+    height: 94px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px #00000040;
+}
+
+.container_direita{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 70px;
+    gap: 24px;
+}
+.container_topo_direita{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FFFFFF;
+    height: 113px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px #00000040;
+}
+
+.bloco_amarelo_di{
+    margin: 14px 41px;
+    background-color: #FFE600;
+    width: 70px;
+    height: 70px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px #00000040;
+}
+
+
+.container_direita_blocos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 342px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px #00000040;
+}
+
+.bloco_1{
+    background-color: #FE367E;
+    margin: 29px 30px 50px 30px;
+    width: 270px;
+    height: 263px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px #00000040;
+}
+
+.bloco_2{
+    background-color: #FE367E;
+    flex-grow: 1;
+    margin: 29px 30px 50px auto;
+    height: 263px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px #00000040;
+}
+
+
