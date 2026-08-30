@@ -21,6 +21,7 @@
     background-color: #FE367E;
     border: 5px solid black;
     border-radius: 10px;
+    box-shadow: 4px 9px 5px #00000040;
     
 }
 
@@ -31,6 +32,6 @@
     background-color: #FFE600;
     border: 5px solid black;
     border-radius: 10px;
-
+    box-shadow: 4px 9px 5px #00000040;
 
 }
