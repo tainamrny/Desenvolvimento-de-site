@@ -1,0 +1,115 @@
+:root{
+    --background-color: #0a0318;
+    --background-search:  #0E0522;
+    --menu-color: #9E96C8;
+    --border-color:  #28154F;
+    --background-active: rgba(168, 56, 240, 13%);
+    --background-container: #150930;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: Roboto;
+}
+
+.header_container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    
+
+    padding: 21px 24px;
+    height: 72px;
+    width: 100vw;
+
+    background-color: var(--background-search);
+    color: #C818D0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.barra_pesquisa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #201045;
+    color: var(--menu-color);
+
+    margin: auto 270px;
+    padding-left: 8px;
+    width: 440px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+}
+
+.menu_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.menu_container a{
+    color: var(--menu-color);
+    
+}
+.menu_container a:hover{
+    color: white;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vw;
+}
+
+.container_aside_left{
+    height: 100%;
+    width: 260px;
+    
+    border-right: 1px solid var(--border-color);
+    gap: 8px;
+
+}
+
+.container_aside_left a{
+    color: var(--menu-color);
+    font-size: 16px;
+
+    
+    
+}
+
+.container_aside_left a.active{
+    background-color: var(--background-active);
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.feed_container{
+    display: flex;
+    justify-content: center;
+    width: 860px;
+    border-right: 1px solid var(--border-color);
+}
+
+.container_profiles{
+    background-color: var(--background-container);
+    width: 820px;
+    height: 107px;
+    border-radius: 16px;
+    
+    border: 1px solid var(--border-color);
+}
+
+
