@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Estante</title>
+</head>
+<body>
+
+    <header>
+        <h1>Estante</h1>
+        <button class="botaonav">
+          <img src="./img/menu.png" alt="Botão Menu">
+        </button>
+        <nav class="navbar">
+          <a href="#Inicio">Início</a>
+          <a href="#Quadrinhos">Quadrinhos</a>
+          <a href="#Nacional">Nacional</a>
+          <a href="#LiteraturaEs">Literatura Estrangeira</a>
+          <a href="#SaibaMais">Saiba mais</a>
+        </nav>
+    </header>
+
+    <section id="Inicio" class="destaque">
+      <p>
+        Bem-vindo à Estante! Aqui você tem acesso aos livros mais variados
+        todos ao alcance de um clique
+      </p>
+ 
+      <article class="livro_destaque">
+        <img src="./img/Livrodestaque_tt.jpg" alt="Capa da comic Teen Titans 2026 segunda edição">
+        <div>
+          <h2>Teen Titans (2026-) #2</h2>
+          <p>Kyle Higgins e Daniele Di Nicuolo</p>
+          <p>Após recusarem uma oferta do Asa Noturna, a nova geração dos Jovens Titãs escolheu o Capuz Vermelho como seu mentor!</p>
+          <p class="sinopsedesktop">Mas será que o outrora jovem prodígio — agora atormentado — tem o que é preciso para controlar esses heróis impulsivos de amanhã? O tempo urge para salvar o amigo desaparecido, enquanto o grupo deixa as salas de bate-papo e vai para as ruas de Seattle realizar sua primeira vigilância e tentar se infiltrar na Ascend.</p>
+          <div class="avaliacao">★★★★★</div>
+          <a href="#">Ler agora</a>
+        </div>
+      </article>
+    </section>
+ 
+    <section class="barra_pesquisa">
+      <h2>O que gostaria de ler hoje?</h2>
+        <input id="busca" placeholder="Pesquisar livros, autores...">
+    </section>
+ 
+    <section id="Quadrinhos" class="categoria">
+      <h2>Quadrinhos</h2>
+      <ul>
+        <li><img src="./img/AsaNoturna1.jpg" alt="Capa da comic Asa Noturna">
+
+          <p class="titulo">Asa Noturna #1</p>
+          <p class="informacoes">Tom Taylor / Quadrinhos</p>
+          <p class="status">Disponível</p>
+          <a href="#">Ver detalhes</a>
+
+        </li>
+        <li><img src="./img/BatmanAbsolute21.avif" alt="Capa da comic Batman Absolute edição 21">
+        
+          <p class="titulo">Batman Absolute #21</p>
+          <p class="informacoes">Scott Snyder / Quadrinhos</p>
+          <p class="status">Emprestado</p>
+          <a href="#">Ver detalhes</a>
+
+        </li>
+        <li><img src="./img/BatmanMorteEmFamilia.jpg" alt="Capa da comic Batman Morte Em Família">
+        
+          <p class="titulo">Batman Morte Em Família</p>
+          <p class="informacoes">Scott snyder / Quadrinhos</p>
+          <p class="status">Disponível</p>
+          <a href="#">Ver detalhes</a>
+
+        </li>
+        <li><img src="./img/TurmaDaMonica.jpg" alt="Capa da comic Turma da Mônica">
+ 
+          <p class="titulo">Turma da Mônica</p>
+          <p class="informacoes">Mauricio de Sousa / Quadrinhos</p>
+          <p class="status">Emprestado</p>
+          <a href="#">Ver detalhes</a>
+        
+</li>
+      </ul>
+    </section>
+ 
+    <section id="Nacional" class="categoria">
+      <h2>Nacional</h2>
+      <ul>
+        <li><img src="./img/TristeFimDePolicarpoQ.jpg" alt="Capa do livro Triste Fim de Policarpo Quaresma">
+ 
+          <p class="titulo">Triste Fim de Policarpo Quaresma</p>
+          <p class="informacoes">Lima Barreto / Nacional</p>
+          <p class="status">Disponível</p>
+          <a href="#">Ver detalhes</a>
+
+        </li>
+        <li><img src="./img/QuartoDeDespejo.jpg" alt="Capa do livro Quarto de Despejo">
+ 
+          <p class="titulo">Quarto de Despejo</p>
+          <p class="informacoes">Carolina Maria de Jesus / Nacional</p>
+          <p class="status">Emprestado</p>
+          <a href="#">Ver detalhes</a>
+        
+        </li>
+        <li><img src="./img/GrandeSertaoVeredas.jpg" alt="Capa do livro Grande Sertão: Veredas">
+ 
+          <p class="titulo">Grande Sertão: Veredas</p>
+          <p class="informacoes">João Guimarães Rosa / Nacional</p>
+          <p class="status">Disponível</p>
+          <a href="#">Ver detalhes</a>
+        
+        </li>
+        
+        <li><img src="./img/MeuPeDeLaranjaLima.jpg" alt="Capa do livro Meu Pé de Laranja Lima">
+        
+          <p class="titulo">Meu Pé de Laranja Lima</p>
+          <p class="informacoes">José Mauro de Vasconcelos / Nacional</p>
+          <p class="status">Disponível</p>
+          <a href="#">Ver detalhes</a>
+        </li>
+      </ul>
+    </section>
+
+     <section id="LiteraturaEs" class="categoria">
+      <h2>Literatura Estrangeira</h2>
+      <ul>
+        <li><img src="./img/AdmiravelMundoNovo.jpg" alt="Capa do livro Admirável Mundo Novo">
+ 
+          <p class="titulo">Admirável Mundo Novo</p>
+          <p class="informacoes">Aldous Huxley / Lit. Estrangeira</p>
+          <p class="status">Disponível</p>
+          <a href="#">Ver detalhes</a>
+        
+        </li>
+        <li><img src="./img/GentePobre.jpg" alt="Capa do livro Gente Pobre">
+ 
+          <p class="titulo">Gente Pobre</p>
+          <p class="informacoes">Fiódor Dostoiévski / Lit. Estrangeira</p>
+          <p class="status">Emprestado</p>
+          <a href="#">Ver detalhes</a>
+        
+        </li>
+        <li><img src="./img/PorUmSimplesPCeramica.jpg" alt="Capa do livro Por Um Simples Pedaço de Cerâmica">
+ 
+          <p class="titulo">Por Um Simples Pedaço de Cerâmica</p>
+          <p class="informacoes">Linda Sue Park / Lit. Estrangeira</p>
+          <p class="status">Emprestado</p>
+          <a href="#">Ver detalhes</a>
+        
+        </li>
+        <li><img src="./img/VocePrecisaDeUmGato.jpg" alt="Capa do livro Você Precisa de Um Gato">
+ 
+          <p class="titulo">Você Precisa de Um Gato</p>
+          <p class="informacoes">Shigematsu Kiyoshi  / Lit. Estrangeira</p>
+          <p class="status">Disponível</p>
+          <a href="#">Ver detalhes</a>
+        
+        </li>
+      </ul>
+    </section>
+ 
+    </main>
+   <footer id="SaibaMais">
+    <div class="Sobre">
+      <p class="titulo_footer">Estante</p>
+      <p class="sobre_titulo">Sobre o site:</p>
+      <p>Estante é um acervo digital onde você pode pegar livros emprestados e ler de onde quiser, de maneira fácil.</p>
+    </div>
+
+    <div class="Creditos">
+      <p>© 2026 Tainá. Projeto de Desenvolvimento de Sites, sem fins comerciais.</p>
+      <p>Capas e títulos pertencem aos seus respectivos autores e editoras.</p>
+    </div>
+   </footer>
+</body>
+</html>

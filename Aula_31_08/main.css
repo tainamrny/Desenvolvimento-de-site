@@ -81,6 +81,8 @@ body{
 }
 
 .container_aside_left a{
+    display: flex;
+    flex-direction: column;
     color: var(--menu-color);
     font-size: 16px;
 
